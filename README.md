@@ -1,6 +1,7 @@
 # emojicast
 Periodically tweets weather for a particular area in emoji form ☀🌧
 
+[Live demo](https://twitter.com/EmojiCastLeeds)
 
 ## Contributing
 

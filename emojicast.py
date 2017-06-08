@@ -65,8 +65,8 @@ class EmojiWeather():
 class Tweet():
 
     def __init__(self, location):
-        self.weathers = [];
-        self.location = location;
+        self.weathers = []
+        self.location = location
 
     def add_weather(self, weather):
         self.weathers.append(weather)
