@@ -81,7 +81,7 @@ class Tweet():
 
 
 auth = tweepy.OAuthHandler(settings['consumer_key'], settings['consumer_secret'])
-auth.set_access_token(settings['access_key'], access['access_secret'])
+auth.set_access_token(settings['access_key'], settings['access_secret'])
 api = tweepy.API(auth)
 owm = pyowm.OWM(settings['owm_key'])
 
